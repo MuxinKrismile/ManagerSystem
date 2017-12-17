@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:split="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>创新创业工作室</title>
+    <link rel="shortcut icon" href="images/logo.ico"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <!--//main-->
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swipebox.css">
+    <!--//top-->
+    <link href="css/style.css" rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="css/jquery.countdown.css"/>
+    <link rel="stylesheet" href="../vendor/font-awesome/css/font-awesome.min.css">
+    <!--js-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+
+    <script src="js/bootstrap-wysiwyg.js"></script>
+    <script src="js/jquery.hotkeys.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+
+    <script>
+        $(document).ready(function () {
+            $(".dropdown").hover(
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                    $(this).toggleClass('open');
+                },
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                    $(this).toggleClass('open');
+                }
+            );
+        });
+    </script>
+    <!--web-fonts-->
+    <link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet'
+          type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic'
+          rel='stylesheet' type='text/css'>
+    <!--//web-fonts-->
+    <!--start-smooth-scrolling-->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/user.css">
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand" href="index.html">JSUCCW LIBRARY</a>-->
+            <img src="images/Slogo.png" alt="创新创业工作室" class="img-responsive"
+                 style="height: 50px;width: 250px;margin-top: 5px">
+        </div>
+        <!--/.navbar-header-->
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+            <ul class="nav navbar-nav">
+                <li class="dropdown set_btn user-card-box">
+                    <a href="login.html"><i class="fa fa-user"></i><span>登录</span></a>
+                    <!--<a id="header-avator" class="user-card-item js-header-avator">
+                        <img width="40" height="40" src="images/head.jpg">
+                    </a>-->
+                    <ul class="dropdown-menu nav-head">
+                        <li><a href="userinfo.html">个人中心</a></li>
+                        <li><a href="#">个人主页</a></li>
+                        <li><a href="#">退出登录</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                            class="fa fa-list"></i><span>点赞榜</span></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                            class="fa fa-globe"></i><span>活动</span></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                            class="fa fa-search"></i><span>搜索</span></a>
+                    <ul class="dropdown-menu search-form">
+                        <form>
+                            <input type="text" class="search-text" name="s" placeholder="Search...">
+                            <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!--/.navbar-collapse-->
+</nav>
+<nav class="navbar nav_bottom" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header nav_2">
+            <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse"
+                    data-target="#bs-megadropdown-tabs">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+            <ul class="nav navbar-nav nav_1">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="LibraryIntroduce.html">项目管理</a></li>
+                <li><a href="ReaderService.html">ACM管理</a></li>
+                <li><a href="#">读书管理</a></li>
+                <!--<li class="dropdown">-->
+                <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">本馆通知<span class="caret"></span></a>-->
+                <!--<ul class="dropdown-menu" role="menu">-->
+                <!--<li><a href="terms.html">工作动态</a></li>-->
+                <!--<li><a href="shortcodes.html">公告通知</a></li>-->
+                <!--<li><a href="faq.html">新书通报</a></li>-->
+                <!--<li><a href="faq.html">读者荐购</a></li>-->
+                <!--</ul>-->
+                <!--</li>-->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">培训计划<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="terms.html">大一</a></li>
+                        <li><a href="shortcodes.html">大二</a></li>
+                        <li><a href="faq.html">大三</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">学习计划<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="terms.html">大一</a></li>
+                        <li><a href="shortcodes.html">大二</a></li>
+                        <li><a href="faq.html">大三</a></li>
+                    </ul>
+                </li>
+                <li><a href="BuyBook.html">日常考勤</a></li>
+                <li><a href="WorkRoom.html">任务管理</a></li>
+                <!-- <li><a href="blog.html">其他</a></li>-->
+                <!--<li><a href="career.html">Career</a></li>
+                <li class="last"><a href="contact.html">Contacts</a></li>-->
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+<div id="home" class="banner">
+    <div class="banner-info">
+        <div class="container">
+            <div class="col-md-4 header-left">
+                <img src="images/img1.jpg" alt=""/>
+            </div>
+            <div class="col-md-8 header-right">
+                <h2>你好</h2>
+                <h1>灿烈</h1>
+                <h6>什么签名没有哦(●'◡'●)</h6>
+                <ul class="address">
+                    <li>
+                        <ul class="address-text">
+                            <li><b>年级</b></li>
+                            <li>15</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="address-text">
+                            <li><b>项目</b></li>
+                            <li>66</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="address-text">
+                            <li><b>刷题数 </b></li>
+                            <li>666</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="address-text">
+                            <li><b>师傅 </b></li>
+                            <li>灿烈</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="address-text">
+                            <li><b>徒弟 </b></li>
+                            <li>灿烈</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="address-text">
+                            <li><b> </b></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="address-text">
+                            <li><b> </b></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!--//banner-->
+<!--//top-nav-->
+<div class="peoplemain">
+    <div class="west col-xs-3">
+        <ul>
+            <li class="account">
+                <a id="west1">
+                    <i class="fa fa-calendar-check-o"></i><span>项目</span><i class="fa fa-angle-down"></i>
+                </a>
+            </li>
+            <div class="submenu" style="display: none; ">
+                <ul class="root">
+                    <li>
+                        <a id="west2" onclick="change_div('project')">
+                            <i class="fa fa-leaf"></i><span>全部</span><i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="west3">
+                            <i class="fa fa-leaf"></i><span>进行中</span><i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="west4">
+                            <i class="fa fa-leaf"></i><span>已完成</span><i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <li>
+                <a id="west5" class="actived" onclick="change_div('ACM')">
+                    <i class="fa fa-bookmark"></i><span>ACM</span><i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+            <li>
+                <a id="west6" onclick="change_div('readingNotes')">
+                    <i class="fa fa-calendar-o"></i><span>读书笔记</span><i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+            <li>
+                <a id="west7" onclick="change_div('myAttention')">
+                    <i class="fa fa-star"></i><span>我的关注</span><i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+            <li>
+                <a id="west8" onclick="change_div('myplan')">
+                    <i class="fa fa-commenting-o"></i><span>学习计划</span><i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class=" center col-xs-9">
+        <!--项目-->
+        <div id="project">
+            <div class="prompt">
+                <div class="current-select">项目 <a class="btn btn-default buildNew" data-toggle="modal" data-target="#newproject"> 新&nbsp;&nbsp;建</a></div>
+            </div>
+            <div class="item newcourse ">
+
+                <div class="myself">
+                    <img src="images/img1.jpg" class="pic_myself">
+                    <span class="myname">灿烈</span>
+                    <div class="time">2017-11-19</div>
+                    <div class="state">开始该项目</div>
+                </div>
+                <div class="projectContent">
+                    <a href="#" target="_blank">
+                        <img src="images/project2.jpg" class="bookpic" width="80" height="80">
+                    </a>
+                    <div class="content">
+                        <div class="projectHead">
+                            <div class="projectName">
+                                <a class="subtitle" href="" target="_blank">图书管理系统</a>
+                            </div>
+                        </div>
+                        <div class="projectBody">
+                            <a href="" target=_blank>
+                                <div class="member">成员&nbsp;:&nbsp;<strong> 灿烈&nbsp;&nbsp;伯贤</strong></div>
+                                <div class="detail">该项目主要是为了让实验室的小伙伴们更好的能查阅到自己想看的数据...</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cb"></div>
+            </div>
+            <div class="item newcourse ">
+                <div class="myself">
+                    <img src="images/img1.jpg" class="pic_myself">
+                    <span class="myname">灿烈</span>
+                    <div class="time">2017-11-19</div>
+                    <div class="state">开始该项目</div>
+                </div>
+                <div class="projectContent">
+                    <a href="#" target="_blank">
+                        <img src="images/project1.jpg" class="bookpic" width="80" height="80">
+                    </a>
+                    <div class="content">
+                        <div class="projectHead">
+                            <div class="projectName">
+                                <a class="subtitle" href="" target="_blank">图书管理系统</a>
+                            </div>
+                        </div>
+                        <div class="projectBody">
+                            <a href="" target=_blank>
+                                <div class="member">成员&nbsp;:&nbsp;<strong> 灿烈&nbsp;&nbsp;伯贤</strong></div>
+                                <div class="detail">该项目主要是为了让实验室的小伙伴们更好的能查阅到自己想看的数据...</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cb"></div>
+            </div>
+            <div class="item newcourse ">
+                <div class="myself">
+                    <img src="images/img1.jpg" class="pic_myself">
+                    <span class="myname">灿烈</span>
+                    <div class="time">2017-11-19</div>
+                    <div class="state">开始该项目</div>
+                </div>
+                <div class="projectContent">
+                    <a href="#" target="_blank">
+                        <img src="images/defaultProject.jpg" class="bookpic" width="80" height="80">
+                    </a>
+                    <div class="content">
+                        <div class="projectHead">
+                            <div class="projectName">
+                                <a class="subtitle" href="" target="_blank">图书管理系统</a>
+                            </div>
+                        </div>
+                        <div class="projectBody">
+                            <a href="" target=_blank>
+                                <div class="member">成员&nbsp;:&nbsp;<strong> 灿烈&nbsp;&nbsp;伯贤</strong></div>
+                                <div class="detail">该项目主要是为了让实验室的小伙伴们更好的能查阅到自己想看的数据...</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cb"></div>
+            </div>
+            <div class="item newcourse ">
+                <div class="myself">
+                    <img src="images/img1.jpg" class="pic_myself">
+                    <span class="myname">灿烈</span>
+                    <div class="time">2017-11-19</div>
+                    <div class="state">开始该项目</div>
+                </div>
+                <div class="projectContent">
+                    <a href="#" target="_blank">
+                        <img src="images/defaultProject.jpg" class="bookpic" width="80" height="80">
+                    </a>
+                    <div class="content">
+                        <div class="projectHead">
+                            <div class="projectName">
+                                <a class="subtitle" href="" target="_blank">图书管理系统</a>
+                            </div>
+                        </div>
+                        <div class="projectBody">
+                            <a href="" target=_blank>
+                                <div class="member">成员&nbsp;:&nbsp;<strong> 灿烈&nbsp;&nbsp;伯贤</strong></div>
+                                <div class="detail">该项目主要是为了让实验室的小伙伴们更好的能查阅到自己想看的数据...</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cb"></div>
+            </div>
+        </div>
+        <!--ACM-->
+        <div id="ACM">
+            <div class="prompt">
+                <div class="current-select">ACM <a class="btn btn-default buildNew" data-toggle="modal" data-target="#newACM"> 新&nbsp;&nbsp;建</a></div>
+            </div>
+            <div class="item-center newcourse ">
+                <div class="content tl-item">
+                    <ul class="time">
+                        <div class="dian btn btn-default"></div>
+                        <b>2017</b>
+                        <em>11月14日</em>
+                    </ul>
+                    <div class="brush-list brush-list-m">
+                        <ul class="clearfix">
+                            <li class="brush-one">
+                                <div class="brush-list-img l">
+                                    <a href="#" target="_blank">
+                                        <img width="113" height="113" alt="ACM" src="images/ACM.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="brush-list-cont">
+                                    <p class="ACM-hd">
+                                        <a href="#" target="_blank">牛客网</a>
+                                    </p>
+                                    <div class="catog-points">
+                                        <span class="i-left span-common">每周要求题数:
+                                            <i class="claim-num">20</i></span>
+                                        <span class="i-right span-common">本周已刷题数:
+                                            <i class="finish-num">66</i></span>
+                                    </div>
+                                    <div class="catog-points">
+                                        <span class="i-left span-common"><a href="#">笔记:
+                                            <i class="note-num">0</i></a></span>
+                                        <span class="i-right span-common"><a href="#">问答:
+                                            <i class="qa-num">0</i></a></span>
+                                        <a href="#" target="_blank" class="btn-red continute-btn">继续刷题</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item-center newcourse ">
+                <div class="content tl-item">
+                    <ul class="time">
+                        <div class="dian btn btn-default"></div>
+                        <b>2017</b>
+                        <em>11月14日</em>
+                    </ul>
+                    <div class="brush-list brush-list-m">
+                        <ul class="clearfix">
+                            <li class="brush-one">
+                                <div class="brush-list-img l">
+                                    <a href="#" target="_blank">
+                                        <img width="113" height="113" alt="ACM" src="images/ACM.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="brush-list-cont">
+                                    <p class="ACM-hd">
+                                        <a href="#" target="_blank">牛客网</a>
+                                    </p>
+                                    <div class="catog-points">
+                                        <span class="i-left span-common">每周要求题数:
+                                            <i class="claim-num">20</i></span>
+                                        <span class="i-right span-common">本周已刷题数:
+                                            <i class="finish-num">66</i></span>
+                                    </div>
+                                    <div class="catog-points">
+                                        <span class="i-left span-common"><a href="#">笔记:
+                                            <i class="note-num">0</i></a></span>
+                                        <span class="i-right span-common"><a href="#">问答:
+                                            <i class="qa-num">0</i></a></span>
+                                        <a href="#" target="_blank" class="btn-red continute-btn">继续刷题</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item-center newcourse ">
+                <div class="content tl-item">
+                    <ul class="time">
+                        <div class="dian btn btn-default"></div>
+                        <b>2017</b>
+                        <em>11月14日</em>
+                    </ul>
+                    <div class="brush-list brush-list-m">
+                        <ul class="clearfix">
+                            <li class="brush-one">
+                                <div class="brush-list-img l">
+                                    <a href="#" target="_blank">
+                                        <img width="113" height="113" alt="ACM" src="images/ACM.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="brush-list-cont">
+                                    <p class="ACM-hd">
+                                        <a href="#" target="_blank">牛客网</a>
+                                    </p>
+                                    <div class="catog-points">
+                                        <span class="i-left span-common">每周要求题数:
+                                            <i class="claim-num">20</i></span>
+                                        <span class="i-right span-common">本周已刷题数:
+                                            <i class="finish-num">66</i></span>
+                                    </div>
+                                    <div class="catog-points">
+                                        <span class="i-left span-common"><a href="#">笔记:
+                                            <i class="note-num">0</i></a></span>
+                                        <span class="i-right span-common"><a href="#">问答:
+                                            <i class="qa-num">0</i></a></span>
+                                        <a href="#" target="_blank" class="btn-red continute-btn">继续刷题</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item-center newcourse ">
+                <div class="content tl-item">
+                    <ul class="time">
+                        <div class="dian btn btn-default"></div>
+                        <b>2017</b>
+                        <em>11月14日</em>
+                    </ul>
+                    <div class="brush-list brush-list-m">
+                        <ul class="clearfix">
+                            <li class="brush-one">
+                                <div class="brush-list-img l">
+                                    <a href="#" target="_blank">
+                                        <img width="113" height="113" alt="ACM" src="images/ACM.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="brush-list-cont">
+                                    <p class="ACM-hd">
+                                        <a href="#" target="_blank">牛客网</a>
+                                    </p>
+                                    <div class="catog-points">
+                                        <span class="i-left span-common">每周要求题数:
+                                            <i class="claim-num">20</i></span>
+                                        <span class="i-right span-common">本周已刷题数:
+                                            <i class="finish-num">66</i></span>
+                                    </div>
+                                    <div class="catog-points">
+                                        <span class="i-left span-common"><a href="#">笔记:
+                                            <i class="note-num">0</i></a></span>
+                                        <span class="i-right span-common"><a href="#">问答:
+                                            <i class="qa-num">0</i></a></span>
+                                        <a href="#" target="_blank" class="btn-red continute-btn">继续刷题</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--查看笔记-->
+        <div id="readingNotes">
+            <div class="prompt">
+                <div class="current-select">我的笔记<a class="btn btn-default buildNew" data-toggle="modal" data-target="#newNote"> 新&nbsp;&nbsp;建</a></div>
+            </div>
+            <div class="item newcourse ">
+                <div class="share-box hide clearfix" data-objtype=0 data-nickname='ChanYeol' data-tuid=530
+                     data-title='现代软件工程 ' data-img="">
+                    <div class="a shareWrapBox">
+                        <div class="share-box-con">
+                            <div class="share-action l bdsharebuttonbox bdshare-button-style0-16"
+                                 data-bd-bind="1463738309415">
+                                <a class="bds link bds_weixin icon-share-weichat" data-cmd="weixin" title="分享到微信"></a>
+                                <a class="bds link bds_tsina icon-share-weibo" data-cmd="tsina" title="分享到新浪微博"></a>
+                                <a class="bds link bds_qzone icon-share-qq" data-cmd="qzone" title="分享到QQ空间"></a>
+                            </div>
+                        </div><!-- .share-box-con end -->
+                    </div><!-- .share-box end -->
+                </div>
+                <a href="#" target="_blank">
+                    <img src="images/books.png" class="bookpic" width="40" height="40">
+                </a>
+                <div class="content">
+                    <div class="bookhead">
+                        <div class="bookname">
+                            <a class="subtitle" href="https://book.douban.com/subject/3269815/"
+                               target="_blank">现代软件工程</a>
+                        </div>
+                    </div>
+                    <div class="bookbody">
+                        <a href="https://book.douban.com/subject/3269815/" target=_blank>
+                            <div class="content">
+                                <div class="span-common">6-9 java遍历之add()方法</div>
+                                <div class="note">正如我之前所写的，Java 8中的新功能特性改变了游戏规则。对Java开发者来说这是一个全新的世界，并且是时候去适应它了。在Java
+                                    8的新功能特性中...
+                                    <a class="btn btn-default lookall">查看全部</a>
+                                </div>
+                                <div class="note-bottom">
+                                    <div class="note-time">2017-11-11 11:11</div>
+                                    <a class="btn btn-default note-del"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;&nbsp;删除</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cb"></div>
+            </div>
+            <div class="item newcourse ">
+                <div class="share-box hide clearfix" data-objtype=0 data-nickname='ChanYeol' data-tuid=530
+                     data-title='现代软件工程 ' data-img="">
+                    <div class="a shareWrapBox">
+                        <div class="share-box-con">
+                            <div class="share-action l bdsharebuttonbox bdshare-button-style0-16"
+                                 data-bd-bind="1463738309415">
+                                <a class="bds link bds_weixin icon-share-weichat" data-cmd="weixin" title="分享到微信"></a>
+                                <a class="bds link bds_tsina icon-share-weibo" data-cmd="tsina" title="分享到新浪微博"></a>
+                                <a class="bds link bds_qzone icon-share-qq" data-cmd="qzone" title="分享到QQ空间"></a>
+                            </div>
+                        </div><!-- .share-box-con end -->
+                    </div><!-- .share-box end -->
+                </div>
+                <a href="#" target="_blank">
+                    <img src="images/books.png" class="bookpic" width="40" height="40">
+                </a>
+                <div class="content">
+                    <div class="bookhead">
+                        <div class="bookname">
+                            <a class="subtitle" href="https://book.douban.com/subject/3269815/"
+                               target="_blank">现代软件工程</a>
+                        </div>
+                    </div>
+                    <div class="bookbody">
+                        <a href="https://book.douban.com/subject/3269815/" target=_blank>
+                            <div class="content">
+                                <div class="span-common">6-9 java遍历之add()方法</div>
+                                <div class="note">正如我之前所写的，Java 8中的新功能特性改变了游戏规则。对Java开发者来说这是一个全新的世界，并且是时候去适应它了。在Java
+                                    8的新功能特性中...
+                                    <a class="btn btn-default lookall">查看全部</a>
+                                </div>
+                                <div class="note-bottom">
+                                    <div class="note-time">2017-11-11 11:11</div>
+                                    <a class="btn btn-default note-del"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;&nbsp;删除</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cb"></div>
+            </div>
+            <div class="item newcourse ">
+                <div class="share-box hide clearfix" data-objtype=0 data-nickname='ChanYeol' data-tuid=530
+                     data-title='现代软件工程 ' data-img="">
+                    <div class="a shareWrapBox">
+                        <div class="share-box-con">
+                            <div class="share-action l bdsharebuttonbox bdshare-button-style0-16"
+                                 data-bd-bind="1463738309415">
+                                <a class="bds link bds_weixin icon-share-weichat" data-cmd="weixin" title="分享到微信"></a>
+                                <a class="bds link bds_tsina icon-share-weibo" data-cmd="tsina" title="分享到新浪微博"></a>
+                                <a class="bds link bds_qzone icon-share-qq" data-cmd="qzone" title="分享到QQ空间"></a>
+                            </div>
+                        </div><!-- .share-box-con end -->
+                    </div><!-- .share-box end -->
+                </div>
+                <a href="#" target="_blank">
+                    <img src="images/books.png" class="bookpic" width="40" height="40">
+                </a>
+                <div class="content">
+                    <div class="bookhead">
+                        <div class="bookname">
+                            <a class="subtitle" href="https://book.douban.com/subject/3269815/"
+                               target="_blank">现代软件工程</a>
+                        </div>
+                    </div>
+                    <div class="bookbody">
+                        <a href="https://book.douban.com/subject/3269815/" target=_blank>
+                            <div class="content">
+                                <div class="span-common">6-9 java遍历之add()方法</div>
+                                <div class="note">正如我之前所写的，Java 8中的新功能特性改变了游戏规则。对Java开发者来说这是一个全新的世界，并且是时候去适应它了。在Java
+                                    8的新功能特性中...
+                                    <a class="btn btn-default lookall">查看全部</a>
+                                </div>
+                                <div class="note-bottom">
+                                    <div class="note-time">2017-11-11 11:11</div>
+                                    <a class="btn btn-default note-del"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;&nbsp;删除</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cb"></div>
+            </div>
+            <div class="item newcourse ">
+                <div class="share-box hide clearfix" data-objtype=0 data-nickname='ChanYeol' data-tuid=530
+                     data-title='现代软件工程 ' data-img="">
+                    <div class="a shareWrapBox">
+                        <div class="share-box-con">
+                            <div class="share-action l bdsharebuttonbox bdshare-button-style0-16"
+                                 data-bd-bind="1463738309415">
+                                <a class="bds link bds_weixin icon-share-weichat" data-cmd="weixin" title="分享到微信"></a>
+                                <a class="bds link bds_tsina icon-share-weibo" data-cmd="tsina" title="分享到新浪微博"></a>
+                                <a class="bds link bds_qzone icon-share-qq" data-cmd="qzone" title="分享到QQ空间"></a>
+                            </div>
+                        </div><!-- .share-box-con end -->
+                    </div><!-- .share-box end -->
+                </div>
+                <a href="#" target="_blank">
+                    <img src="images/books.png" class="bookpic" width="40" height="40">
+                </a>
+                <div class="content">
+                    <div class="bookhead">
+                        <div class="bookname">
+                            <a class="subtitle" href="https://book.douban.com/subject/3269815/"
+                               target="_blank">现代软件工程</a>
+                        </div>
+                    </div>
+                    <div class="bookbody">
+                        <a href="https://book.douban.com/subject/3269815/" target=_blank>
+                            <div class="content">
+                                <div class="span-common">6-9 java遍历之add()方法</div>
+                                <div class="note">正如我之前所写的，Java 8中的新功能特性改变了游戏规则。对Java开发者来说这是一个全新的世界，并且是时候去适应它了。在Java
+                                    8的新功能特性中...
+                                    <a class="btn btn-default lookall">查看全部</a>
+                                </div>
+                                <div class="note-bottom">
+                                    <div class="note-time">2017-11-11 11:11</div>
+                                    <a class="btn btn-default note-del"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;&nbsp;删除</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cb"></div>
+            </div>
+        </div>
+        <!--我的关注-->
+        <div id="myAttention">
+            <div class="concern-list">
+                <ul>
+                    <li class="box">
+                        <div class="left-img">
+                            <a href="#" target="_blank">
+                                <img src="images/t9.jpg" class="top_head">
+                            </a>
+                        </div>
+                        <div class="right-c">
+                            <div class="notice-name">
+                                <a href="#" target="_blank">
+                                    <span class="nickname">伯贤</span>
+                                </a>
+                            </div>
+                            <p class="desc" title="全栈工程师">全栈工程师</p>
+                            <div class="fs-line">
+                                <a href="#" class="u-target">
+                                    <span class="group">
+                                        <em>关注</em>
+                                        <em class="num">99</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="u-target num">
+                                    <span class="group fansnum">
+                                        <em>粉丝</em>
+                                        <em class="num">6666666</em>
+                                    </span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" target="_blank" class=" btn btn-default js-concern-msg">私 &nbsp;&nbsp;信</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="box">
+                        <div class="left-img">
+                            <a href="#" target="_blank">
+                                <img src="images/t9.jpg" class="top_head">
+                            </a>
+                        </div>
+                        <div class="right-c">
+                            <div class="notice-name">
+                                <a href="#" target="_blank">
+                                    <span class="nickname">伯贤</span>
+                                </a>
+                            </div>
+                            <p class="desc" title="全栈工程师">全栈工程师</p>
+                            <div class="fs-line">
+                                <a href="#" class="u-target">
+                                    <span class="group">
+                                        <em>关注</em>
+                                        <em class="num">99</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="u-target num">
+                                    <span class="group fansnum">
+                                        <em>粉丝</em>
+                                        <em class="num">6666666</em>
+                                    </span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" target="_blank" class=" btn btn-default js-concern-msg">私 &nbsp;&nbsp;信</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="box">
+                        <div class="left-img">
+                            <a href="#" target="_blank">
+                                <img src="images/t9.jpg" class="top_head">
+                            </a>
+                        </div>
+                        <div class="right-c">
+                            <div class="notice-name">
+                                <a href="#" target="_blank">
+                                    <span class="nickname">伯贤</span>
+                                </a>
+                            </div>
+                            <p class="desc" title="全栈工程师">全栈工程师</p>
+                            <div class="fs-line">
+                                <a href="#" class="u-target">
+                                    <span class="group">
+                                        <em>关注</em>
+                                        <em class="num">99</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="u-target num">
+                                    <span class="group fansnum">
+                                        <em>粉丝</em>
+                                        <em class="num">6666666</em>
+                                    </span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" target="_blank" class=" btn btn-default js-concern-msg">私 &nbsp;&nbsp;信</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="box">
+                        <div class="left-img">
+                            <a href="#" target="_blank">
+                                <img src="images/t9.jpg" class="top_head">
+                            </a>
+                        </div>
+                        <div class="right-c">
+                            <div class="notice-name">
+                                <a href="#" target="_blank">
+                                    <span class="nickname">伯贤</span>
+                                </a>
+                            </div>
+                            <p class="desc" title="全栈工程师">全栈工程师</p>
+                            <div class="fs-line">
+                                <a href="#" class="u-target">
+                                    <span class="group">
+                                        <em>关注</em>
+                                        <em class="num">99</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="u-target num">
+                                    <span class="group fansnum">
+                                        <em>粉丝</em>
+                                        <em class="num">6666666</em>
+                                    </span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" target="_blank" class=" btn btn-default js-concern-msg">私 &nbsp;&nbsp;信</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="box">
+                        <div class="left-img">
+                            <a href="#" target="_blank">
+                                <img src="images/t9.jpg" class="top_head">
+                            </a>
+                        </div>
+                        <div class="right-c">
+                            <div class="notice-name">
+                                <a href="#" target="_blank">
+                                    <span class="nickname">伯贤</span>
+                                </a>
+                            </div>
+                            <p class="desc" title="全栈工程师">全栈工程师</p>
+                            <div class="fs-line">
+                                <a href="#" class="u-target">
+                                    <span class="group">
+                                        <em>关注</em>
+                                        <em class="num">99</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="u-target num">
+                                    <span class="group fansnum">
+                                        <em>粉丝</em>
+                                        <em class="num">6666666</em>
+                                    </span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" target="_blank" class=" btn btn-default js-concern-msg">私 &nbsp;&nbsp;信</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="box">
+                        <div class="left-img">
+                            <a href="#" target="_blank">
+                                <img src="images/t9.jpg" class="top_head">
+                            </a>
+                        </div>
+                        <div class="right-c">
+                            <div class="notice-name">
+                                <a href="#" target="_blank">
+                                    <span class="nickname">伯贤</span>
+                                </a>
+                            </div>
+                            <p class="desc" title="全栈工程师">全栈工程师</p>
+                            <div class="fs-line">
+                                <a href="#" class="u-target">
+                                    <span class="group">
+                                        <em>关注</em>
+                                        <em class="num">99</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="u-target num">
+                                    <span class="group fansnum">
+                                        <em>粉丝</em>
+                                        <em class="num">6666666</em>
+                                    </span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" target="_blank" class=" btn btn-default js-concern-msg">私 &nbsp;&nbsp;信</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--学习计划-->
+        <div id="myplan">
+            <div class="prompt">
+                <div class="current-select">学习计划 <a class="btn btn-default buildNew" data-toggle="modal" data-target="#newPlan"> 新&nbsp;&nbsp;建</a></div>
+            </div>
+            <div class="item newcourse ">
+                <a href="#" target="_blank">
+                    <img src="images/img1.jpg" class="mypic">
+                </a>
+                <div class="content">
+                    <div class="myplan_head">
+                        <div class="myplan_name">
+                            <a class="myname" href="#" target="_blank">灿烈</a>
+                        </div>
+                    </div>
+                    <div class="myplan_body">
+                        <a href="#" target=_blank>
+                            <div class="content">
+                                <div class="semester">大一上学期</div>
+                                <div class="plan">
+                                    这学期我要这学期我要这学期我要这学期我要这学期我要这学期我这学期我要这学期我要这学期我这学期我要...这学期我要...这学期我要.........
+                                    <a class="btn btn-default lookall">查看全部</a>
+                                </div>
+                                <div class="plan-bottom">
+                                    <div class="plan-time">2017-03-03 03:03</div>
+                                    <a class="btn btn-default plan-yes"><span
+                                            class="glyphicon glyphicon-hourglass"></span>&nbsp;&nbsp;&nbsp;审核通过</a>
+                                    <a class="btn btn-default note-del"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;&nbsp;删除</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cb"></div>
+            </div>
+            <div class="item newcourse ">
+                <a href="#" target="_blank">
+                    <img src="images/img1.jpg" class="mypic">
+                </a>
+                <div class="content">
+                    <div class="myplan_head">
+                        <div class="myplan_name">
+                            <a class="myname" href="#" target="_blank">灿烈</a>
+                        </div>
+                    </div>
+                    <div class="myplan_body">
+                        <a href="#" target=_blank>
+                            <div class="content">
+                                <div class="semester">大一上学期</div>
+                                <div class="plan">
+                                    这学期我要这学期我要这学期我要这学期我要这学期我要这学期我这学期我要这学期我要这学期我这学期我要...这学期我要...这学期我要.........
+                                    <a class="btn btn-default lookall">查看全部</a>
+                                </div>
+                                <div class="plan-bottom">
+                                    <div class="plan-time">2017-03-03 03:03</div>
+                                    <a class="btn btn-default plan-wait"><span
+                                            class="glyphicon glyphicon-hourglass"></span>&nbsp;&nbsp;&nbsp;审核中</a>
+                                    <a class="btn btn-default note-del"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;&nbsp;删除</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cb"></div>
+            </div>
+            <div class="item newcourse ">
+                <a href="#" target="_blank">
+                    <img src="images/img1.jpg" class="mypic">
+                </a>
+                <div class="content">
+                    <div class="myplan_head">
+                        <div class="myplan_name">
+                            <a class="myname" href="#" target="_blank">灿烈</a>
+                        </div>
+                    </div>
+                    <div class="myplan_body">
+                        <a href="#" target=_blank>
+                            <div class="content">
+                                <div class="semester">大一上学期</div>
+                                <div class="plan">
+                                    这学期我要这学期我要这学期我要这学期我要这学期我要这学期我这学期我要这学期我要这学期我这学期我要...这学期我要...这学期我要.........
+                                    <a class="btn btn-default lookall">查看全部</a>
+                                </div>
+                                <div class="plan-bottom">
+                                    <div class="plan-time">2017-03-03 03:03</div>
+                                    <a class="btn btn-default plan-no"><span
+                                            class="glyphicon glyphicon-hourglass"></span>&nbsp;&nbsp;&nbsp;审核不通过</a>
+                                    <a class="btn btn-default note-del"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;&nbsp;删除</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cb"></div>
+            </div>
+            <div class="item newcourse ">
+                <a href="#" target="_blank">
+                    <img src="images/img1.jpg" class="mypic">
+                </a>
+                <div class="content">
+                    <div class="myplan_head">
+                        <div class="myplan_name">
+                            <a class="myname" href="#" target="_blank">灿烈</a>
+                        </div>
+                    </div>
+                    <div class="myplan_body">
+                        <a href="#" target=_blank>
+                            <div class="content">
+                                <div class="semester">大一上学期</div>
+                                <div class="plan">
+                                    这学期我要这学期我要这学期我要这学期我要这学期我要这学期我这学期我要这学期我要这学期我这学期我要...这学期我要...这学期我要.........
+                                    <a class="btn btn-default lookall">查看全部</a>
+                                </div>
+                                <div class="plan-bottom">
+                                    <div class="plan-time">2017-03-03 03:03</div>
+                                    <a class="btn btn-default plan-wait"><span
+                                            class="glyphicon glyphicon-hourglass"></span>&nbsp;&nbsp;&nbsp;审核中</a>
+                                    <a class="btn btn-default note-del"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;&nbsp;删除</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cb"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="col-md-3 grid_4">
+            <h3>关于我们</h3>
+            <p>感谢大家对创新创业工作室系统的使用，如果大家有什么建议可以联系我们的管理员并进行反馈，我们将慎重考虑大家的意见</p>
+            <ul class="social-nav icons_2 clearfix">
+                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="facebook"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 grid_4">
+            <h3>其他学习平台</h3>
+            <ul class="footer_list">
+                <li><a href="#">-创新工作室刷题平台 </a></li>
+                <li><a href="#">- 牛客网</a></li>
+                <li><a href="#">- LeetCode</a></li>
+                <li><a href="#">- 慕课网</a></li>
+                <li><a href="#">- 网易云课堂</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 grid_4">
+            <h3>联系我们</h3>
+            <address>
+                <span>黄老师</span>
+                <br>
+                <abbr>手机号码 : </abbr> 18797537398
+                <br>
+                <abbr>邮箱 : </abbr> <a href="mailto@example.com">13221312@</a>
+                <br><br>
+                <span>馆长</span>
+                <br>
+                <abbr>手机号码 : </abbr> 18797537398
+                <br>
+                <abbr>邮箱 : </abbr> <a href="mailto@example.com">13221312@</a>
+            </address>
+        </div>
+        <div class="col-md-3 grid_4">
+            <h3>工作时间</h3>
+            <table class="table_working_hours">
+                <tbody>
+                <tr class="opened_1">
+                    <td class="day_label">星期一</td>
+                    <td class="day_value">19:00 am - 22.00 pm</td>
+                </tr>
+                <tr class="opened">
+                    <td class="day_label">星期二</td>
+                    <td class="day_value">19:00 am - 22.00 pm</td>
+                </tr>
+                <tr class="opened">
+                    <td class="day_label">星期三</td>
+                    <td class="day_value">19:00 am - 22.00 pm</td>
+                </tr>
+                <tr class="opened">
+                    <td class="day_label">星期四</td>
+                    <td class="day_value">19:00 am - 22.00 pm</td>
+                </tr>
+                <tr class="opened">
+                    <td class="day_label">星期五</td>
+                    <td class="day_value">19:00 am - 22.00 pm</td>
+                </tr>
+                <tr class="closed">
+                    <td class="day_label">星期日</td>
+                    <td class="day_value">09:00 am - 22.00 pm</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--//footer-->
+
+<div class="footer-up" style="display: block">
+    <a class="to-up"> <i class="fa fa-angle-up btn-up"></i> </a>
+</div>
+
+<div id="newproject" class="modal fade " role="dialog" aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <form class="form-horizontal">
+                <div class="modal-header" style="background-color: #cfecee">
+                    <input type="button" value="&times;" class="close" data-dismiss="modal" aria-hidden="true">
+                    <div class="modal-title">
+                        <span class="fa fa-google-wallet" style="color: yellow"></span>&nbsp;&nbsp;新建项目
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="Text">项目名:</div>
+                        <div class="Input">
+                            <input type="text" class="form-control" name="projectname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="Text">成员:</div>
+                        <div class="Input">
+                            <div class="projectMemberShow"></div>
+                        </div>
+                        <a class="addMember"><i class="fa fa-plus-square "></i></a>
+                    </div>
+                    <div class="row">
+                        <div class="Text">说明<span>(可选)</span>:</div>
+                        <div class="Input">
+                            <textarea class="detail_textarea" maxlength="568" name="text" rows="3" cols="30"
+                                      style="color: rgb(34, 34, 34); width: 100%"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-success" value="确认新建">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="newACM" class="modal fade " role="dialog" aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <form class="form-horizontal">
+                <div class="modal-header" style="background-color: #cfecee">
+                    <input type="button" value="&times;" class="close" data-dismiss="modal" aria-hidden="true">
+                    <div class="modal-title">
+                        <span class="fa fa-google-wallet" style="color: yellow"></span>&nbsp;&nbsp;新建刷题
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="Text">刷题网址:</div>
+                        <div class="Input">
+                            <input type="text" class="form-control" name="projectname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="Text">每周要求题数:</div>
+                        <div class="Input">
+                            <input type="text" class="form-control" name="ACMnum">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="Text">说明<span>(可选)</span>:</div>
+                        <div class="Input">
+                            <textarea class="detail_textarea" maxlength="568" name="text" rows="3" cols="30"
+                                      style="color: rgb(34, 34, 34); width: 100%"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-success" value="确认新建">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="newNote" class="modal fade " role="dialog" aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <form class="form-horizontal">
+                <div class="modal-header" style="background-color: #cfecee">
+                    <input type="button" value="&times;" class="close" data-dismiss="modal" aria-hidden="true">
+                    <div class="modal-title">
+                        <span class="fa fa-google-wallet" style="color: yellow"></span>&nbsp;&nbsp;新建笔记
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="Text">笔记名:</div>
+                        <div class="Input">
+                            <input type="text" class="form-control" name="projectname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="panel panel-default" id="write-comment">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <span class="fa fa-flag" style="color: red"></span> &nbsp;&nbsp;发表书评
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <form class="form-horizontal">
+                                    <div class="btn-toolbar" data-role="editor-toolbar" data-target="#editor">
+                                        <div class="btn-group">
+                                            <a class="btn btn-default" data-edit="italic" title="斜体">
+                                                <i class="fa fa-italic"></i>
+                                            </a>
+                                            <a class="btn btn-default" data-edit="bold" title="粗体">
+                                                <i class="fa fa-bold"></i>
+                                            </a>
+                                            <a class="btn btn-default" data-edit="strikethrough" title="删除线">
+                                                <i class="fa fa-strikethrough"></i>
+                                            </a>
+                                            <a class="btn btn-default" data-edit="underline" title="下划线">
+                                                <i class="fa fa-underline"></i>
+                                            </a>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a class="btn btn-default" data-edit="justifyleft" title="左对齐">
+                                                <i class="fa fa-align-left"></i>
+                                            </a>
+                                            <a class="btn btn-default" data-edit="justifycenter" title="居中对齐">
+                                                <i class="fa fa-align-center"></i>
+                                            </a>
+                                            <a class="btn btn-default" data-edit="justifyright" title="右对齐">
+                                                <i class="fa fa-align-right"></i>
+                                            </a>
+                                            <a class="btn btn-default" data-edit="justifyfull" title="两段对齐">
+                                                <i class="fa fa-align-justify"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="editor" class="form-control" style="height: 300px">请发表文明评论</div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-success" value="确认新建">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="newPlan" class="modal fade " role="dialog" aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <form class="form-horizontal">
+                <div class="modal-header" style="background-color: #cfecee">
+                    <input type="button" value="&times;" class="close" data-dismiss="modal" aria-hidden="true">
+                    <div class="modal-title">
+                        <span class="fa fa-google-wallet" style="color: yellow"></span>&nbsp;&nbsp;新建学习计划
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="Text">学期:</div>
+                        <div class="Input">
+                            <input type="text" class="form-control" name="projectname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="Text">成员:</div>
+                        <div class="Input">
+                            <div class="projectMemberShow"></div>
+                        </div>
+                        <a class="addMember"><i class="fa fa-plus-square "></i></a>
+                    </div>
+                    <div class="row">
+                        <div class="Text">说明<span>(可选)</span>:</div>
+                        <div class="Input">
+                            <textarea class="detail_textarea" maxlength="568" name="text" rows="3" cols="30"
+                                      style="color: rgb(34, 34, 34); width: 100%"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-success" value="确认新建">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="js/uesr.js"></script>
+
+<script>
+    $(function () {
+        $('[data-toggle = "tooltip"]').tooltip();
+    });
+    $('a[title]').tooltip({container: 'body'});
+    $('#editor').wysiwyg();
+</script>
+
+<script>
+    var current = 'ACM';
+    var map = {};
+    map['project'] = '#west2';
+    map['ACM'] = '#west5';
+    map['readingNotes'] = '#west6';
+    map['myAttention'] = '#west7';
+    map['myplan'] = '#west8';
+
+    function change_div(id) {
+        document.getElementById(current).style.display = 'none';
+        $(map[current]).removeClass("actived");
+        current = id;
+        document.getElementById(current).style.display = 'block';
+        $(map[current]).addClass("actived");
+        return false;
+    }
+</script>
+</body>
+</html>

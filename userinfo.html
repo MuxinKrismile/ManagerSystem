@@ -1,0 +1,744 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>个人中心</title>
+    <link rel="shortcut icon" href="images/logo.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="Learn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css'/>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/userinfo.css" rel='stylesheet' type='text/css'/>
+    <link href="css/style.css" rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="css/jquery.countdown.css"/>
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    <!----font-Awesome----->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!----font-Awesome----->
+    <script>
+        $(document).ready(function () {
+            $(".dropdown").hover(
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                    $(this).toggleClass('open');
+                },
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                    $(this).toggleClass('open');
+                }
+            );
+        });
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand" href="index.html">JSUCCW LIBRARY</a>-->
+            <img src="images/Slogo.png" alt="创新创业工作室" class="img-responsive"
+                 style="height: 50px;width: 250px;margin-top: 5px">
+        </div>
+        <!--/.navbar-header-->
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+            <ul class="nav navbar-nav">
+                <li class="dropdown set_btn user-card-box">
+                    <!--<a href="login.html"><i class="fa fa-user"></i><span>登录</span></a>-->
+                    <a id="header-avator" class="user-card-item js-header-avator">
+                        <img width="40" height="40" src="images/head.jpg">
+                    </a>
+                    <ul class="dropdown-menu nav-head">
+                        <li><a href="userinfo.html">个人中心</a></li>
+                        <li><a href="#">个人主页</a></li>
+                        <li><a href="#">退出登录</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                            class="fa fa-list"></i><span>点赞榜</span></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                            class="fa fa-globe"></i><span>活动</span></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                            class="fa fa-search"></i><span>搜索</span></a>
+                    <ul class="dropdown-menu search-form">
+                        <form>
+                            <input type="text" class="search-text" name="s" placeholder="Search...">
+                            <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!--/.navbar-collapse-->
+</nav>
+<nav class="navbar nav_bottom" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header nav_2">
+            <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse"
+                    data-target="#bs-megadropdown-tabs">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+            <ul class="nav navbar-nav nav_1">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="LibraryIntroduce.html">项目管理</a></li>
+                <li><a href="ReaderService.html">ACM管理</a></li>
+                <li><a href="#">读书管理</a></li>
+                <!--<li class="dropdown">-->
+                <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">本馆通知<span class="caret"></span></a>-->
+                <!--<ul class="dropdown-menu" role="menu">-->
+                <!--<li><a href="terms.html">工作动态</a></li>-->
+                <!--<li><a href="shortcodes.html">公告通知</a></li>-->
+                <!--<li><a href="faq.html">新书通报</a></li>-->
+                <!--<li><a href="faq.html">读者荐购</a></li>-->
+                <!--</ul>-->
+                <!--</li>-->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">培训计划<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="terms.html">大一</a></li>
+                        <li><a href="shortcodes.html">大二</a></li>
+                        <li><a href="faq.html">大三</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">学习计划<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="terms.html">大一</a></li>
+                        <li><a href="shortcodes.html">大二</a></li>
+                        <li><a href="faq.html">大三</a></li>
+                    </ul>
+                </li>
+                <li><a href="BuyBook.html">日常考勤</a></li>
+                <li><a href="WorkRoom.html">任务管理</a></li>
+                <!-- <li><a href="blog.html">其他</a></li>-->
+                <!--<li><a href="career.html">Career</a></li>
+                <li class="last"><a href="contact.html">Contacts</a></li>-->
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+<div class="courses_banner">
+    <div class="container">
+        <h3>个人中心</h3>
+        <p class="description">
+            Welcome to join JSUCCW! Here we will meet a group of like-minded students,
+            grow together, learn professional knowledge, I hope everyone here can meet better myself. Finally, I wish
+            you all success!
+        </p>
+        <div class="breadcrumb1">
+            <ul>
+                <li class="icon6"><a href="index.html">首页</a></li>
+                <li class="current-page">个人中心</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="main">
+    <div class="settings-cont clearfix">
+        <div class="setting-left l">
+            <div class="avator-wapper">
+                <div class="avator-mode">
+                    <img class="avator-img" src="images/head.jpg"
+                         data-portrait="565e48af0001e15a01000100" style="width: 92px;height: 92px;">
+                    <div class="update-avator">
+                        <p><a href="javascript:void(0);" class="js-avator-link" data-toggle="modal"
+                              data-target="#changeimg">更换头像</a></p>
+                    </div>
+                </div>
+                <div class="des-mode">
+                    <p>灿烈</p>
+                </div>
+            </div>
+            <iframe src="about:blank" id="uploadtarget" name="uploadtarget" frameborder="0"
+                    style="display:none;"></iframe>
+            <div class="list-wapper">
+                <h2>账户管理</h2>
+                <div class="line"></div>
+                <ul class="menu">
+                    <li><a id="userManager" class="on" onclick="change_div('user')">账号管理<span class="arr"><i
+                            class="fa fa-angle-right"></i></span></a></li>
+                    <li><a id="personManager" onclick="change_div('person')">个人信息<span class="arr"><i
+                            class="fa fa-angle-right"></i></span></a></li>
+                    <li><a id="notifyManager" onclick="change_div('notify')">通知管理<span class="arr"><i
+                            class="fa fa-angle-right"></i></span></a></li>
+                    <li><a id="labelManager" onclick="change_div('label')">标签管理<span class="arr"><i
+                            class="fa fa-angle-right"></i></span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="setting-right">
+            <div class="setting-right-wrap wrap-boxes settings">
+                <div class="formBox">
+                    <!--账户管理-->
+                    <div id="user" class="setting-wrap page-settings" style="display: block">
+                        <div class="common-title">
+                            账号管理
+                        </div>
+                        <div class="line"></div>
+                        <div class="setting">
+                            <div class="contentBox">
+                                <div class="bingd">
+                                    <div class="itemBox">
+                                        <div class="left"><i class="fa fa-phone"></i></div>
+                                        <div class="center">
+                                            <p><span class="font1">手机号码</span>
+                                                <span class="font3">18823456891
+                                                    <input class="hide" id="jsMail" value="18823456891">已绑定</span>
+                                            </p>
+                                            <p class="font2">可用手机号码接收创新创业工作室发来的短信通知</p>
+                                        </div>
+                                        <div class="right">
+                                            <a href="javascript:;"
+                                               class="change js-change moco-btn moco-btn-normal"
+                                               data-toggle="modal"
+                                               data-target="#changeEmail">更改</a>
+                                        </div>
+                                    </div>
+                                    <div class="itemBox">
+                                        <div class="left"><i class="fa fa-key"></i></div>
+                                        <div class="center">
+                                            <p><span class="font1">密码</span> 已设置</p>
+                                            <p class="font2">用于保护账号信息和登录安全</p>
+                                        </div>
+                                        <div class="right">
+                                            <a href="#" class="moco-btn moco-btn-normal js-changePWD"
+                                               data-toggle="modal"
+                                               data-target="#changePas">修改</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--个人信息-->
+                    <div id="person" class="setting-wrap setting-profile" style="display: none">
+                        <div class="common-title">
+                            个人信息
+                            <a href="#" class="pull-right js-edit-info" data-toggle="modal"
+                               data-target="#editinfo"><i
+                                    class="fa fa-pencil"></i>编辑</a>
+                        </div>
+                        <div class="line"></div>
+                        <div class="info-wapper">
+                            <div class="info-box clearfix">
+                                <label class="pull-left">昵称</label>
+                                <div class="pull-left">灿烈</div>
+                            </div>
+                            <div class="info-box clearfix">
+                                <label class="pull-left">姓名</label>
+                                <div class="pull-left">未填写</div>
+                            </div>
+                            <div class="info-box clearfix">
+                                <label class="pull-left">性别</label>
+                                <div class="pull-left">
+                                    女
+                                </div>
+                            </div>
+                            <div class="info-box clearfix">
+                                <label class="pull-left">年级</label>
+                                <div class="pull-left">15级</div>
+                            </div>
+                            <div class="info-box clearfix">
+                                <label class="pull-left">手机号码</label>
+                                <div class="pull-left">18454465726</div>
+                            </div>
+                            <div class="info-box clearfix">
+                                <label class="pull-left">QQ号</label>
+                                <div class="pull-left">2354856987</div>
+                            </div>
+                            <div class="info-box clearfix">
+                                <label class="pull-left">个性签名</label>
+                                <div class="pull-left">这位同学很留，什么东西都没有懒下。</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--通知管理-->
+                    <div id="notify" class="setting-wrap setting-notify" style="display: none">
+                        <div class="common-title">
+                            通知管理
+                            <a href="#" class="pull-right js-edit-info btn btn-primary"></i>保存</a>
+                        </div>
+                        <div class="line"></div>
+                        <div class="m-MesBox f-cb">
+                            <h3>有以下情况时发通知给我</h3>
+                            <div class="row">
+                                <h3 class="tit">任务的通知</h3>
+                                <ul class="j-noteMes f-cb">
+                                    <li><input id="commentNote" type="checkbox" class="j-commentNote"><label
+                                            for="commentNote">有任务发布时</label></li>
+                                    <li><input id="digNote" type="checkbox" class="j-digNote"><label
+                                            for="digNote">有任务未完成</label></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <h3 class="tit">比赛的通知</h3>
+                                <ul class="j-forumMes f-cb">
+                                    <li><input id="forumReplied" type="checkbox" class="j-forumReplied"><label
+                                            for="forumReplied">有比赛通知时</label></li>
+
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <h3 class="tit">个人通知</h3>
+                                <ul class="f-cb">
+                                    <li><input id="commented" type="checkbox" class="j-commented"><label
+                                            for="commented">有人项目文档更新时</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <h3 class="tit">其他通知</h3>
+                                <ul class="j-snsMes f-cb">
+                                    <li><input id="snsNewFans" type="checkbox" class="j-snsNewFans"><label
+                                            for="snsNewFans">检查结果出来时</label>
+                                    </li>
+                                </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--标签管理-->
+                    <div id="label" class="setting-wrap setting-label" style="display: none">
+                        <div class="common-title">
+                            标签管理
+                            <a href="#" class="pull-right js-edit-info btn btn-primary">保存</a>
+                        </div>
+                        <div class="line"></div>
+                        <h3>给自己贴一贴学习方向的个性化标签</h3>
+                        <div id="j-setBox" class="setBox">
+                            <div class="m-labelBox f-cb">
+                                <ul>
+                                    <li><input id="data" type="checkbox" class="j-course"><label for="data">大数据</label></li>
+                                    <li><input id="andriod" type="checkbox" class="j-weekly"><label for="andriod">安卓</label></li>
+                                    <li><input  type="checkbox" class="j-weekly"><label>WEB前端</label></li>
+                                    <li><input  type="checkbox" class="j-weekly"><label >WEB后端</label></li>
+                                    <li><input  type="checkbox" class="j-weekly"><label >ACM</label></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="col-md-3 grid_4">
+            <h3>关于我们</h3>
+            <p>感谢大家对创新创业工作室系统的使用，如果大家有什么建议可以联系我们的管理员并进行反馈，我们将慎重考虑大家的意见</p>
+            <ul class="social-nav icons_2 clearfix">
+                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="facebook"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 grid_4">
+            <h3>其他学习平台</h3>
+            <ul class="footer_list">
+                <li><a href="#">-创新工作室刷题平台 </a></li>
+                <li><a href="#">- 牛客网</a></li>
+                <li><a href="#">- LeetCode</a></li>
+                <li><a href="#">- 慕课网</a></li>
+                <li><a href="#">- 网易云课堂</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 grid_4">
+            <h3>联系我们</h3>
+            <address>
+                <span>黄老师</span>
+                <br>
+                <abbr>手机号码 : </abbr> 18797537398
+                <br>
+                <abbr>邮箱 : </abbr> <a href="mailto@example.com">13221312@</a>
+                <br><br>
+                <span>馆长</span>
+                <br>
+                <abbr>手机号码 : </abbr> 18797537398
+                <br>
+                <abbr>邮箱 : </abbr> <a href="mailto@example.com">13221312@</a>
+            </address>
+        </div>
+        <div class="col-md-3 grid_4">
+            <h3>工作时间</h3>
+            <table class="table_working_hours">
+                <tbody>
+                <tr class="opened_1">
+                    <td class="day_label">星期一</td>
+                    <td class="day_value">19:00 am - 22.00 pm</td>
+                </tr>
+                <tr class="opened">
+                    <td class="day_label">星期二</td>
+                    <td class="day_value">19:00 am - 22.00 pm</td>
+                </tr>
+                <tr class="opened">
+                    <td class="day_label">星期三</td>
+                    <td class="day_value">19:00 am - 22.00 pm</td>
+                </tr>
+                <tr class="opened">
+                    <td class="day_label">星期四</td>
+                    <td class="day_value">19:00 am - 22.00 pm</td>
+                </tr>
+                <tr class="opened">
+                    <td class="day_label">星期五</td>
+                    <td class="day_value">19:00 am - 22.00 pm</td>
+                </tr>
+                <tr class="closed">
+                    <td class="day_label">星期日</td>
+                    <td class="day_value">09:00 am - 22.00 pm</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!--编辑个人信息-->
+<div class="modal fade" id="editinfo" role="dialog">
+    <div class="modal-dialog-edit">
+        <div class="modal-content">
+            <form id="frmUserLogin" class="form-horizontal">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">
+                        编辑个人信息
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <label class="moco-control-label">昵称：</label>
+                        <div class="moco-control-input">
+                            <input type="text" name="nickname" id="nick" autocomplete="off"
+                                   data-validate="require-nick" class="moco-form-control"
+                                   value="" placeholder="请输入昵称"/>
+                            <div class="rlf-tip-wrap errorHint color-red"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="moco-control-label">姓名：</label>
+                        <div class="moco-control-input">
+                            <input type="text" name="nickname" id="name" autocomplete="off"
+                                   data-validate="require-nick" class="moco-form-control"
+                                   value="" placeholder="请输入姓名"/>
+                            <div class="rlf-tip-wrap errorHint color-red"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="moco-form-group wlfg-wrap">
+                            <label for="" class="moco-control-label h16 lh16">性别：</label>
+                            <div class="moco-control-input rlf-group rlf-radio-group" style="padding-top: 5px">
+                                <label><input type="radio" hidefocus="true" value="1" name="sex">男</label>
+                                <label><input type="radio" hidefocus="true" value="2" name="sex">女</label>
+                                <div class="rlf-tip-wrap errorHint color-red"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="moco-control-label">姓名：</label>
+                        <div class="moco-control-input">
+                            <input type="text" name="nickname" id="grade" autocomplete="off"
+                                   data-validate="require-nick" class="moco-form-control"
+                                   value="" placeholder="请输入你的年级，比如15级"/>
+                            <div class="rlf-tip-wrap errorHint color-red"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="moco-control-label">手机号码：</label>
+                        <div class="moco-control-input">
+                            <input type="text" name="nickname" id="phone" autocomplete="off"
+                                   data-validate="require-nick" class="moco-form-control"
+                                   value="" placeholder="请输入你的手机号码"/>
+                            <div class="rlf-tip-wrap errorHint color-red"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="moco-control-label">QQ号：</label>
+                        <div class="moco-control-input">
+                            <input type="text" name="nickname" id="qq" autocomplete="off"
+                                   data-validate="require-nick" class="moco-form-control"
+                                   value="" placeholder="请输入你的QQ号"/>
+                            <div class="rlf-tip-wrap errorHint color-red"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="moco-form-group wlfg-wrap">
+                            <label for="" class="moco-control-label">个性签名：</label>
+                            <div class="moco-control-input">
+                                <div class="pr">
+                                    <textarea name="aboutme" id="aboutme" rows="5"
+                                              class="noresize js-sign moco-form-control">这位同学很留，什么东西都没有懒下。</textarea>
+                                    <p class="numCanInput js-numCanInput ">还可以输入111个字符</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-primary" value="确&nbsp;认"/>
+                    <input type="button" class="btn btn-default" value="取&nbsp;消"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--更改头像-->
+<div class="modal fade" id="changeimg" role="dialog">
+    <div class="modal-dialog-head">
+        <div class="modal-content">
+            <form id="frmUserLogin1" class="form-horizontal">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">
+                        更换头像
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row" style="display: block;">
+                        <div class="tpl-avator">
+                            <div class="moco-form-group avator-wapper">
+                                <div class="avator-mode"><img class="avator-img" id="js-portrait"
+                                                              src="images/head.jpg"
+                                                              data-portrait="{$userinfo.portrait}" style="width: 192px;height: 192px" width="192px"
+                                                              height="192px"></div>
+                                <div class="clearfix w140">
+                                    <a herf="javascript:void(0);" class="index-left js-avator-try avator-try">换一换</a>
+                                    <form target="uploadtarget" action="postpic" method="post"
+                                          enctype="multipart/form-data" class="index-right"><a
+                                            herf="javascript:void(0)" class="avator-btn-fake">上传头像</a> <input
+                                            class="hide" type="file" title="上传头像" name="fileField" id="upload"
+                                            accept="image/gif,image/jpeg,image/jpg,image/png"> <input
+                                            class="hide" type="hidden" name="type" value="1"></form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-primary" value="确&nbsp;认"/>
+                    <input type="button" class="btn btn-default" value="取&nbsp;消"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--更改密码-->
+<div class="modal fade" id="changePas" role="dialog">
+    <div class="modal-dialog1">
+        <div class="modal-content">
+            <form id="frmUserLogin2" class="form-horizontal">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                    </button>
+                    <h4 class="modal-title">
+                        修改密码
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div class="row">
+                                <div class="moco-control-input">
+                                    <label class="moco-control-label">原密码：</label>
+                                    <input type="password" name="previouspas" id="previouspas" value=""/>
+                                    <div class="rlf-tip-wrap errorHint color-red"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="moco-control-input">
+                                    <label class="moco-control-label">新密码：</label>
+                                    <input type="password" name="newpas" id="newpas" value=""/>
+                                    <div class="rlf-tip-wrap errorHint color-red"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="moco-control-input">
+                                    <label class="moco-control-label">确认密码：</label>
+                                    <input type="password" name="newpas1" id="newpas1" value=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-primary" value="确&nbsp;认"/>
+                    <input type="button" class="btn btn-default" value="取&nbsp;消"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--修改手机号-->
+<div class="modal fade" id="changeEmail" role="dialog">
+    <div class="modal-dialog-email">
+        <div class="modal-content">
+            <form id="frmUserLogin3" class="form-horizontal">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                    </button>
+                    <h4 class="modal-title">
+                        验证身份
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="moco-modal-inner">
+                            <div class="moco-modal-dialog" style="display: block;">
+                                <div class="yanzheng-id">
+                                    <div class="keybox"><i class="fa fa-key"></i></div>
+                                    <p class="font1 mb20">请输入登录密码验证身份<br>18823456891</p>
+                                    <div class="dialogBox yanZhengBox" style="width: 430px;">
+                                        <div class="moco-form-group"><label class="moco-control-label">密码：</label>
+                                            <div class="moco-control-input"><input type="password" placeholder="请输入密码"
+                                                                                   class="js-pwd moco-form-control js-phoneNumber"
+                                                                                   data-validate="require-password"
+                                                                                   id="">
+                                                <div class="moco-control-tip errorHint color_red"></div>
+                                            </div>
+                                        </div>
+                                        <div class="moco-form-group"><label class="moco-control-label">验证码：</label>
+                                            <!--<div class="moco-control-input w135 mr12"><input data-callback="checkverity"
+                                                                                             maxlength="4"
+                                                                                             placeholder="输入验证码"
+                                                                                             class="js-verify moco-form-control w140 fl js-phoneCode"
+                                                                                             data-validate="require-string"
+                                                                                             data-minlength="4" id="">
+                                                <div class="moco-control-tip errorHint color_red"
+                                                     data-error-hint="请输入4位验证码"></div>
+                                            </div>
+                                            <div class="yzmBox verify-img-wrap "><img class="verify-img"
+                                                                                      src="/user/verifycode?t=1511419521573"><a
+                                                    href="javascript:void(0)" hidefocus="true"
+                                                    class="fa fa-refresh icon-refresh js-verify-refresh"></a></div>-->
+                                            <div class="moco-control-input w135 mr12"><input placeholder="输入验证码"
+                                                                                             class="js-verify moco-form-control w140 fl js-phoneCode"
+                                                                                             id="confirmCode">
+                                                <div id="l1" class="moco-control-tip errorHint color_red"></div>
+                                            </div>
+                                            <div class="yzmBox verify-img-wrap ">
+                                                <div class="verify-code" id="showCode"></div>
+                                                <div class="verify-refresh"><a id="refreshCode"
+                                                        class="fa fa-refresh icon-refresh js-verify-refresh"></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input id="b1" type="button" class="btn btn-primary" value="确&nbsp;认"/>
+                    <input type="button" class="btn btn-default" value="取&nbsp;消"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    /*$(document).ready(function (){
+        $("#edit").click(function (){
+            //alert("hdhkd");
+            $("#editinfo").css("display","block");
+        });
+    });*/
+    var current = 'user';
+    var map = {};
+    map['user'] = '#userManager';
+    map['person'] = '#personManager';
+    map['notify'] = '#notifyManager';
+    map['label']='#labelManager';
+
+    function change_div(id) {
+        document.getElementById(current).style.display = 'none';
+        $(map[current]).removeClass("on");
+        current = id;
+        document.getElementById(current).style.display = 'block';
+        $(map[current]).addClass("on");
+        return false;
+    }
+
+    console.log("aaaa")
+    $(document).ready(function () {
+        $(".avator-mode").hover(
+            function () {
+                $(this).find(".update-avator").stop().animate({
+                    "height": 60
+                });
+            },
+            function () {
+                $(this).find(".update-avator").stop().animate({
+                    "height": 0
+                });
+            });
+        var code;
+
+        function createCode() {
+            code = '';
+            var codeLength = 4;
+            var codeV = $("#showCode");
+            //设置随机字符
+            var random = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
+            for (var i = 0; i < codeLength; i++) { //循环codeLength 我设置的4就是循环4次
+                var index = Math.floor(Math.random() * 36); //设置随机数范围,这设置为0 ~ 36
+                code += random[index]; //字符串拼接 将每次随机的字符 进行拼接
+            }
+            codeV.text(code);//将拼接好的字符串赋值给展示的Value
+        }
+        //页面开始加载验证码
+        createCode();
+
+        $("#refreshCode").click(function () {
+            createCode();
+        })
+
+        //下面就是判断是否==的代码，无需解释
+        $("#b1").bind('click',function() {
+            var oValue = $("#confirmCode").val().toUpperCase();
+            $("#l1").html("");
+            if(oValue ==""){
+                $("#l1").html("<font color='red'>请输入验证码</font>");
+            }else if(oValue != code){
+                $("#l1").html("<font color='red'>验证码不正确，请重新输入</font>");
+                oValue = "";
+                createCode();
+            }else{
+                $("#l1").html("<font color='blue'>验证码正确</font>");
+            }
+        });
+
+    })
+</script>
+</body>
+</html>
