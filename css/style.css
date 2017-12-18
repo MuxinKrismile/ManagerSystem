@@ -1100,17 +1100,17 @@ p.description{
     background-color: #ffffff;
 }
 .course_list .table-list li > div.id_col {
-    width: 12%;
+    width: 9%;
     text-transform: uppercase;
 }
 .course_list .table-list li > div {
     float: left;
-    padding: 15px 20px;
+    padding: 15px 28px;
 }
 .course_list .table-list li > div.name_col {
-    width: 52%;
+    width: 53%;
 }
-.course_list .table-list li > div.duration_col {
+.course_list .table-list li > div.member_col{
     width: 17%;
 }
 .course_list .table-list li > div.date_col {
