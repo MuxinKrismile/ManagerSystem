@@ -302,6 +302,10 @@ ul.persons li{
     outline: none;
     border: 1px solid #a0b3d6;
     overflow-y: auto;
+    font-weight: 400;
+    font-size:0.95em;
+    color:#777;
+    text-indent: 2em;
 }
 
 
