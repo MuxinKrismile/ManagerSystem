@@ -324,11 +324,9 @@ ul.persons li{
 .projectSummarize .project-submit:hover{
     background-color:#2f374c;
 }
-.project_list .link{
-    width: 700px;
-}
+
 .project_list .input-grade{
-    margin: 15px 20px;
+    margin: 0 0 15px 0;
 }
 .project_list .give-grade {
     color: #080808;
